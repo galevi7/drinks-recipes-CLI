@@ -1,0 +1,415 @@
+001 – Punk IPA 2007 – 2010
+002 – Punk IPA 2010 – current
+003 – The Physics
+004 – Riptide
+005 – Hop Rocker
+006 – Paradox Islay
+007 – Paradox Jura
+008 – Peroxide Punk
+009 – Hype
+010 – Buzz
+011 – Edge
+012 – Storm
+013 – Cult Lager
+014 – Trashy Blonde
+015 – Original Dogma (Née Speedball)
+016 – AB:03
+017 – Zeitgeist
+018 – Bad Pixie
+019 – Chaos Theory
+020 – Zephyr
+021 – Coffee Imperial Stout
+022 – Devine Rebel
+023 – 77 Lager
+024 – Atlantic IPA
+025 – How To Disappear Completely
+026 – 5AM Saint
+027 – Tokyo Rising Sun Highland
+028 – Tokyo Rising Sun Lowland
+029 – Tokyo*
+030 – Punk Monk
+031 – Bashah
+032 – Nanny State
+033 – Tactical Nuclear Penguin
+034 – Eurotrash
+035 – Movember
+036 – Black Dog
+037 – Hardcore IPA
+038 – Sink The Bismarck!
+039 – Alpha Dog
+040 – Skull Candy
+041 – AB:01
+042 – AB:07
+043 – Prototype 27
+044 – TM10
+045 – AB:02
+046 – Hardkogt IPA
+047 – AB:04
+048 – Alice Porter
+049 – Santa Paws
+050 – AB:09
+051 – Black Tokyo Horizon
+052 – AB:05
+053 – Hello My Name Is Ingrid
+054 – IPA Is Dead: Bramling X
+055 – IPA Is Dead: Citra
+056 – IPA Is Dead: Nelson Sauvin
+057 – IPA Is Dead: Sorachi Ace
+058 – Avery Brown Dredge
+059 – Growler
+060 – Rabiator
+061 – AB:06
+062 – Juniper Wheat Beer
+063 – The End Of History
+064 – Hops Kill Nazis
+065 – Mr. Miyagi's Wasabi Stout
+066 – Sunk Punk
+067 – AB:10
+068 – AB:18
+069 – Old World India Pale Ale
+070 – Old World Russian Imperial Stout
+071 – Lost Dog
+072 – AB:08
+073 – Sunmaid Stout
+074 – Shareholder Brew: Black IPA
+075 – AB:13
+076 – IPA Is Dead: Simcoe
+077 – Libertine Porter
+078 – Mixtape 8
+079 – Bitch Please
+080 – IPA Is Dead: Challenger
+081 – IPA Is Dead: Galaxy
+082 – IPA Is Dead: HBC 369
+083 – IPA Is Dead: Motueka
+084 – Dead Pony Club
+085 – Libertine Black Ale
+086 – Anarchist Alchemist
+087 – Dog A
+088 – Hunter Foundation Pale Ale
+089 – AB:19
+090 – Jack Hammer
+091 – Never Mind The Anabolics
+092 – San Diego Scotch Ale
+093 – AB:12
+094 – White Noise
+095 – International Arms Race
+096 – AB:11
+097 – Hello My Name Is Beastie
+098 – Dog Fight
+099 – Hoppy Christmas
+100 – Black Eyed King Imp
+101 – Cocoa Psycho
+102 – Nuns With Guns
+103 – Catherine's Pony
+104 – IPA Is Dead: Amarillo
+105 – Lichtenstein Pale Ale
+106 – AB:14
+107 – IPA Is Dead: Dana
+108 – IPA Is Dead: El Dorado
+109 – IPA Is Dead: Goldings
+110 – IPA Is Dead: Waimea
+111 – Vagabond Pilsner
+112 – AB:15
+113 – Bracken's Porter
+114 – Fake Lager
+115 – 10 Heads High
+116 – Vice Bier
+117 – Misspent Youth
+118 – #Mashtag 2013
+119 – Dog B
+120 – Electric India
+121 – Dog Wired
+122 – Hello My Name Is Mette-Marit
+123 – Everyday Anarchy
+124 – Black Jacques
+125 – Blitz Berliner Weisse
+126 – Dogma
+127 – Hello My Name Is Sonja
+128 – Shipwrecker Circus
+129 – Dead Metaphor
+130 – Baby Dogma
+131 – Unleash The Yeast: American Ale
+132 – Unleash The Yeast: Bavarian Weizen
+133 – Unleash The Yeast: Belgian Trappist
+134 – Unleash The Yeast: Pilsen Lager
+135 – IPA Is Dead: Vic Secret
+136 – Brixton Porter
+137 – Prototype Challenge: Hobo Pop
+138 – Prototype Challenge: Interstellar
+139 – Prototype Challenge: Moshi Moshi 15
+140 – Black Eye Joe
+141 – Lumberjack Stout
+142 – Clown King
+143 – Hello My Name Is Vladimir
+144 – Bourbon Baby
+145 – AB:16
+146 – Comet
+147 – HBC 366 IPA
+148 – Kohatu
+149 – Hello My Name Is Zé
+150 – Alpha Pop
+151 – Jasmine IPA
+152 – #Mashtag 2014
+153 – Dog C
+154 – Hello My Name Is Päivi
+155 – Vote Sepp
+156 – Magic Stone Dog
+157 – Russian Doll: Barley Wine
+158 – Sub Hop
+159 – U-Boat
+160 – American Wheat
+161 – Cap Dog
+162 – Russian Doll: Double IPA
+163 – Russian Doll: India Pale Ale
+164 – Russian Doll: Pale
+165 – This.Is.Lager.
+166 – India Pale Weizen
+167 – AB:17
+168 – Konnichiwa Kitsune
+169 – Prototype Challenge: All Day Long
+170 – Prototype Challenge: Hop Fiction
+171 – Prototype Challenge: Vagabond Pale Ale
+172 – Black Eyed King Imp Vietnamese Coffee Edition
+173 – Shareholder Brew: Bounty Hunter
+174 – Restorative Beverage For Invalids And Convalescents
+175 – Prototype Challenge: Stereo Wolf Stout
+176 – B-Sides: Sunshine On Rye
+177 – B-Sides: Bowman’s Beard
+178 – Hello My Name Is Little Ingrid
+179 – IPA Is Dead: Chinook
+180 – IPA Is Dead: Ella
+181 – IPA Is Dead: Mandarina Bavaria
+182 – IPA Is Dead: Pioneer
+183 – Born To Die
+184 – B-Sides: Melon And Cucumber IPA
+185 – B-Sides: Sorachi Bitter
+186 – B-Sides: Truffle And Chocolate Stout
+187 – B-Sides: Hoppy Saison
+188 – B-Sides: Whisky Sour
+189 – B-Sides: Spiced Cherry Sour
+190 – B-Sides: Deaf Mermaid
+191 – #Mashtag 2015
+192 – Dog D
+193 – Hinterland
+194 – Peach Therapy
+195 – Hello My Name Is Holy Moose
+196 – Lizard Bride
+197 – B-Sides: Mango Gose
+198 – Candy Kaiser
+199 – Pumpkin King
+200 – B-Sides: Baby Saison
+201 – B-Sides: Morag's Mojito
+202 – B-Sides: Orange Blossom
+203 – Doodlebug
+204 – No Label
+205 – B-Sides: Rhubarb Saison
+206 – Prototype Challenge: India Session Lager
+207 – Prototype Challenge: Hopped-Up Brown Ale
+208 – Albino Squid Assassin
+209 – B-Sides: Berliner Weisse With Raspberries And Rhubarb
+210 – Arcade Nation
+211 – Elvis Juice V2.0
+212 – B-Sides: Berliner Weisse With Hunter Yuzu
+213 – B-Sides: Cascade, Centennial & Willamette IPA
+214 – B-Sides: Single Hop Enigma IPA
+215 – Jet Black Heart
+216 – Ace Of Simcoe
+217 – Ship Wreck
+218 – Monk Hammer
+219 – Prototype Pils 2.0
+220 – Blitz Series
+221 – Dog E
+222 – Barrel Aged Hinterland
+223 – AB:20
+224 – Barrel Aged Albino Squid Assassin
+225 – Kingpin
+226 – Paradox Islay
+227 – Ace Of Chinook
+228 – #Mashtag 2016
+229 – Neon Overlord
+230 – Black Hammer
+231 – Ace Of Citra
+232 – Chili Hammer
+233 – Ace Of Equinox
+234 – Rye Hammer
+235 – BrewDog Vs Beavertown
+236 – Prototype Helles
+237 – Mango And Chili Barley Wine
+238 – Science IPA
+239 – Honey And Lemon Blitz
+240 – Blitz Saison
+241 – Hello My Name Is Ingrid 2016
+242 – Crew Brew
+243 – Gin Blitz
+244 – AB:21
+245 – Beatnik
+246 – Casino Rye Ale
+247 – Self Assembly Pope
+248 – Twin Atlantic
+249 – Hop Shot
+250 – Small Batch: Rye IPA
+251 – Small Batch: Sorachi Ace Session
+252 – Small Batch: Dortmunder
+253 – Small Batch: 90 Shilling
+254 – Small Batch: Kellerbier
+255 – Small Batch: Tripel
+256 – Small Batch: Vermont IPA
+257 – Semi Skimmed Occultist
+258 – Paradox Rye
+259 – Tropic Thunder
+260 – New England IPA
+261 – Small Batch: Nitro Breakfast Stout
+262 – Small Batch: Vermont IPA V2.0
+263 – Small Batch: Mandarina Lager
+264 – Small Batch: East Coast Crush
+265 – Pump Action Poet
+266 – Small Batch: Lemon Meringue Pie
+267 – AB:22
+268 – Hazy Jane
+269 – Small Batch: Imperial Pale Weizen
+270 – Blonde Export Stout
+271 – Small Batch: Cranachan Cream Ale
+272 – Small Batch: Spelt & Honey Saison
+273 – Prototype Double IPA
+274 – Prototype Black Rye IPA
+275 – Sidewalk Shark
+276 – Nine To Five Wizard
+277 – Prototype Blonde Ale
+278 – AB:23
+279 – Slot Machine
+280 – Make Earth Great Again
+281 – Homicidal Puppet Help Desk
+282 – Pina Colada Sidewalk Shark
+283 – AB:24
+284 – Hello My Name Is Helga
+285 – Hello My Name Is Sari
+286 – Hello My Name Is Aune
+287 – Hello My Name Is Marianne
+288 – Hello My Name Is Agnetha
+289 – Hello My Name Is Lieke
+290 – Hello My Name Is Niamh
+291 – Hello My Name Is Sofia
+292 – Hello My Name Is Maria
+293 – I Wanna Be Your Dog
+294 – Opaque Jake
+295 – Choco Libre
+296 – Off-Duty Alien
+297 – East Of Vermont
+298 – Declassified Demi-God
+299 – Raspberry Popsicle Parade
+300 – Indie Pale Ale
+301 – Small Batch: Dry-Hopped Pilsner
+302 – Hazy Jane (Bourbon Barrel-Aged)
+303 – Hazy Jane (Rye Barrel-Aged)
+304 – Karma Cloud
+305 – Native Son
+306 – AB:25
+307 – Kamikaze Knitting Club
+308 – Very Big Moose
+309 – Paradox Grain 2018
+310 – Clockwork Tangerine
+311 – Sonic Boom
+312 – Dog G
+313 – Mallow Mafia BrewDog Vs Amundsen
+314 – Manic Mango BrewDog Vs Brewski
+315 – Baltic Fleet BrewDog Vs Bevog
+316 – SOS (May Day!) BrewDog Vs Brlo
+317 – Al Adjore! BrewDog Vs Lapir Ata
+318 – Neverland BrewDog Vs Oedipus
+319 – Grano Giusto BrewDog Vs Birrificio Italiano
+320 – King Of Eights
+321 – Jinx Pale Ale
+322 – Jet Trash
+323 – Interstate Vienna Lager
+324 – Fools Gold Dortmunder Lager
+325 – Zipcode
+326 – The Emperors Blue Clothes (BD vs People Like Us)
+327 – Fanzine: Zephyr Citrus Tart
+328 – Small Batch: Tangerine Zephyr
+329 – Cybernaut
+330 – BA ASA Barrel #132
+331 – Fanzine: Lime Zephyr V2
+332 – Eight Bit (AGM Guest Collab)
+333 – Fanzine: Nebula
+334 – Small Batch: Lemon Zephyr
+335 – Fanzine: Pulp Patriot
+336 – Fanzine: Ten Ton Truck Espresso
+337 – Small Batch: Blueberry Zephyr
+338 – Fanzine: Hopshop
+339 – Zulu Time (BD vs La Goutte d'Or)
+340 – Fanzine: Origami Orangutan
+341 – Fanzine: King of Eights V2
+342 – Sonic Boom V2
+343 – Fanzine: Raspberry Rivet
+344 – Fanzine: Zephyr Piña Colada
+345 – Fanzine: Vinyl Vigilante
+346 – Fanzine: Jet Trash V2
+347 – Fanzine: Technicolour Black
+348 – Fanzine: King of Eights V3
+349 – Fanzine: Pulp Patriot V2 Double Dry-Hop
+350 – Radio Zombie Phone In
+351 – Mashtag 2018
+352 – Beatnik
+353 – Fanzine: Lime Zephyr V2
+354 – Fanzine: Ten Ton Truck Vietnamese Coffee
+355 – Born To Die 13/09/18
+356 – Small Screen Hero
+357 – Quench Quake
+358 – Hop Fiction
+359 – Fanzine: Coin-Op Kaiser
+360 – Fanzine: Heist Monkey
+361 – King Of Eights V4 (German Hop Edition)
+362 – Alter Ego
+363 – Fanzine: Ten Ton Truck Black Forest
+364 – Raspberry Blitz
+365 – Sonic Boom V3
+366 – Lost Lager
+367 – Fanzine: Opaque Jake V2
+368 – Fanzine: Scarlet Fever
+369 – Fanzine: Mind Game
+370 – Fanzine: Brutalist
+371 – Fanzine: Flux Factory
+372 – Fanzine: Totem
+373 – Fanzine: Dogtoberfest
+374 – Straight Up
+375 – Paradox Uncle Duke's (Barrel Aged)
+376 – Fanzine: Red & Dead
+377 – Fanzine: Vermont Vampire
+378 – Rogue Element
+379 – Fanzine: Closed Circuit
+380 – Fanzine: Sea Weasel Shanty
+381 – Get Out Claus
+382 – Mistletoe Mafia
+383 – Fanzine: Caramel Carousel
+384 – Fanzine: Clouded Clarity
+385 – Fanzine: Double Agent
+386 – Ten Ton Truck (Christmas Edition)
+387 – Radio Zombie Phone In (Barrel Aged)
+388 – Fanzine: Passionista
+389 – Fanzine: Mallow Martian
+390 – Tokyo Death (vs Northern Monk)
+391 – Fanzine: Sticky Black
+392 – Fanzine: Porridge Head
+393 – Pulp Patriot V3
+394 – Half Eagle 2.7%
+395 – Two Way Street (BD vs Brygghuset Finn)
+396 – Fight Club
+397 – Paradox Islay
+398 – Deep Slumber (BrewDog vs Buxton)
+399 – Zombie Cake
+400 – Dog H
+401 – Mangopolis
+402 – Baltic Bandit
+403 – Transatlantic Telegram
+404 – Fanzine: Bounty Hunter
+405 – Prime Time
+406 – Cosmic Crush Cherry
+407 – Cosmic Crush Quince
+408 – Cosmic Crush Peach
+409 – Cosmic Crush Tropical
+410 – Cosmic Crush Raspberry
+411 – Funk X Punk
+412 – Moru
+413 – Electric Blue
+414 – Gooseberry Fool
+415 – Aplomb Bomb
