@@ -60,6 +60,7 @@ def delete_record_from_table(name, category, table_name="Gal_Bar", region='us-ea
         ReturnValues="ALL_OLD"
     )
 
+
     if 'Attributes' in response:
         return "Recipe was deleted!"
 
@@ -168,13 +169,17 @@ def alive():
     return "ALIVE!", 200
 
 
-@app.route('/recipe', methods=['GET'])
+@app.route('/recipe', methods=['GET', 'POST', 'DELETE'])
 def recipe():
     recipe_name = request.args.get('name')
     if request.method == 'GET':
+
+        db_response = get_recipe(recipe_name)
+        if db_response:
+            return db_response, 200
+
         beer_response = requests.get(beers_api + f"?beer_name={recipe_name}&page= 1").json()
         cocktail_response = requests.get(cocktails_api + f"search.php?s={recipe_name}").json()
-
 
         is_beer = len(beer_response) > 0
         is_cocktail = cocktail_response["drinks"] is not None
@@ -188,6 +193,13 @@ def recipe():
         else:
             return cocktail_json_to_format(cocktail_response, recipe_name)
 
+    elif request.method == 'POST':
+        args = request.args
+        return add_record_to_table(recipe_name, args.get('description'), args.get('ingredients'), args.get('category'))
+
+    else:
+        return delete_record_from_table(recipe_name, request.args['category'])
+
 
 @app.route('/random', methods=['GET'])
 def random():
@@ -200,6 +212,18 @@ def random():
     else:
         response = requests.get(cocktails_api + "random.php").json()
         return cocktail_json_to_format(response)
+
+
+@app.route('/category', methods=['GET'])
+def get_category():
+    category = request.args.get("category")
+
+    recipes = get_category_recipes(category)
+    if recipes:
+        return recipes, 200
+
+    else:
+        return f"You haven't saved any recipes of {category} yet!", 404
 
 
 if __name__ == '__main__':

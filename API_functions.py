@@ -3,10 +3,7 @@ from collections import deque
 import boto3
 import requests
 import time
-from datetime import datetime
-from boto3.dynamodb.conditions import Key, Attr
 import json
-from botocore.exceptions import ClientError
 
 
 def print_recipe(recipe):
@@ -69,7 +66,7 @@ def main(server_url):
                     if recipe_ == recipe_name:
                         recipe = recipe_json
 
-                if not recipe and not get_recipe(recipe_name):
+                if not recipe:
                     params = {
                         "name": recipe_name
                     }
@@ -93,10 +90,16 @@ def main(server_url):
 
                     print_recipe(recipe)
 
-
                     save = input("Do you want to save this recipe? (Enter Y as a yes) \n")
                     if save.lower() == 'y':
-                        print(add_record_to_table(name, description, ingredients, category))
+                        params = {
+                            'name': name,
+                            'category': category,
+                            "description": description,
+                            "ingredients": ingredients
+                        }
+                        response = requests.post(server_url + "recipe", params=params)
+                        print(response.text)
 
 
             ### Getting last searched recipes
@@ -125,7 +128,7 @@ def main(server_url):
                     choice = input("Choose category (press 1 or 2) \n 1. Beer \n 2. Cocktail \n")
                     try:
                         choice = int(choice)
-                        if choice !=1 and choice != 2:
+                        if choice != 1 and choice != 2:
                             print("Press 1 or 2 only!!!!!!")
                         else:
                             if choice == 1:
@@ -136,7 +139,7 @@ def main(server_url):
                     except ValueError as e:
                         print("Press 1 or 2 only!!!!!!")
 
-                params={
+                params = {
                     "category": category
                 }
 
@@ -166,26 +169,31 @@ def main(server_url):
                         print("Press 1 or 2 only!!!!!!")
 
                 print("Deleting the recipe...")
-                print(delete_record_from_table(recipe_name, category))
+                params = {
+                    "name": recipe_name,
+                    "category": category
+                }
+                response = requests.delete(server_url + "recipe", params=params)
+                print(response.text)
 
             #### Fetching all Beer recipes
             case 5:
                 print("Fetching all beer recipes... \n")
-                response = get_category_recipes("Beer")
-                if not response:
-                    print("You don't have any cocktails recipes!!!")
+                response = requests.get(server_url + "category", params={"category": "Beer"})
+                if not response.status_code == 200:
+                    print(response.status_code)
                 else:
-                    for beer_recipe in response:
+                    for beer_recipe in response.json():
                         print_recipe(beer_recipe)
 
             #### Fetching all cocktail recipes
             case 6:
                 print("Fetching all cocktail recipes... \n")
-                response = get_category_recipes("Cocktail")
-                if not response:
-                    print("You don't have any cocktails recipes!!!")
+                response = requests.get(server_url + "category", params={"category": "Cocktail"})
+                if not response.status_code == 200:
+                    print(response.status_code)
                 else:
-                    for cocktail_recipe in response:
+                    for cocktail_recipe in response.json():
                         print_recipe(cocktail_recipe)
 
             ### Exit program
@@ -225,83 +233,6 @@ def create_table(table_name, partition_key, sort_key=None, region='us-east-2'):
     print(f"Table '{table_name}' is now active!")
 
     return table
-
-
-def add_record_to_table(name, description, ingredients, category, table_name="Gal_Bar", region='us-east-2'):
-    dynamodb = boto3.resource('dynamodb', region_name=region)
-    table = dynamodb.Table(table_name)
-
-    if not name or not category:
-        return "Not valid name or category!"
-
-    item = {
-        "Name": name.lower(),
-        "Description": description,
-        "Ingredients": json.dumps(ingredients),  # Convert to JSON string if needed
-        "Category": category,
-        "Added_At": datetime.utcnow().isoformat()
-    }
-
-    try:
-        response = table.put_item(
-            Item=item,
-            ConditionExpression="attribute_not_exists(#N) AND attribute_not_exists(Category)",
-            ExpressionAttributeNames={
-                "#N": "Name"
-            }
-        )
-        return "Recipe was added!"
-
-    except ClientError as e:
-        if e.response['Error']['Code'] == "ConditionalCheckFailedException":
-            return "Recipe already in the DB!"
-        else:
-            return f"Error: {e.response['Error']['Message']}"
-
-
-def delete_record_from_table(name, category, table_name="Gal_Bar", region='us-east-2'):
-    dynamodb = boto3.resource("dynamodb", region_name=region)
-    table = dynamodb.Table(table_name)
-
-    response = table.delete_item(
-        Key={
-            'Name': name.lower(),
-            'Category': category
-        },
-        ReturnValues="ALL_OLD"
-    )
-
-    if 'Attributes' in response:
-        return "Recipe was deleted!"
-
-    return "Recipe does not exist!"
-
-
-def get_recipe(name, table_name="Gal_Bar", region='us-east-2'):
-    dynamodb = boto3.resource("dynamodb", region_name=region)
-    table = dynamodb.Table(table_name)
-
-    response = table.query(
-        KeyConditionExpression=Key('Name').eq(name)
-    )
-
-    return response['Items'][0] if len(response['Items']) > 0 in response else None
-
-
-def get_category_recipes(category, table_name="Gal_Bar", region='us-east-2'):
-    dynamodb = boto3.resource("dynamodb", region_name=region)
-    table = dynamodb.Table(table_name)
-
-    response = table.scan(
-        FilterExpression=Attr('Category').eq(category)
-    )
-
-    recipes = sorted(response['Items'], key=lambda x: x['Added_At'])
-
-    for recipe in recipes:
-        recipe["Ingredients"] = json.loads(recipe["Ingredients"])
-
-    return recipes if len(response["Items"]) > 0 else None
 
 
 if __name__ == "__main__":
